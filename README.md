@@ -1,6 +1,6 @@
 # Reasonable Alexa Skill
 
-This is a rough first attempt at building an Alexa skill using ReasonML. It's messy and my first project in the language, any tips/tricks/suggestions are more than welcome.
+_This is a rough first attempt at building an Alexa skill using ReasonML. It's messy and my first project in the language, any tips/tricks/suggestions are more than welcome._
 
 The "skill" part of this project is contained within `src/Index.re` and `src/HelloWorld.re`. The index file
 contains a router which handles both a `LaunchRequest` and an `IntentRequest` called `HelloWorld`. The implementation of the

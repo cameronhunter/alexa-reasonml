@@ -1,0 +1,20 @@
+{
+  "name": "alexa-reason",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "pretest": "npm run build",
+    "test": "node ./test/demo.js",
+    "watch": "bsb -make-world -w"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.8.2"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "Alexa"
+  ]
+}

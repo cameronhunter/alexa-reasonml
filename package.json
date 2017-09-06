@@ -5,8 +5,8 @@
   "scripts": {
     "build": "bsb -make-world",
     "clean": "bsb -clean-world",
-    "pretest": "npm run build",
-    "test": "node ./test/demo.js",
+    "predemo": "npm run build",
+    "demo": "node ./test/demo.js",
     "watch": "bsb -make-world -w"
   },
   "devDependencies": {
